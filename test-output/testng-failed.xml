@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="nopcommerce.tests.RegisterationPageTests">
+      <class name="nopcommerce.tests.LoginPageTest">
         <methods>
-          <include name="open_browser"/>
-          <include name="ac"/>
           <include name="ab"/>
-          <include name="close"/>
+          <include name="open_browser"/>
         </methods>
-      </class> <!-- nopcommerce.tests.RegisterationPageTests -->
+      </class> <!-- nopcommerce.tests.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
