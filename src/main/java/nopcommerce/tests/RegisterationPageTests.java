@@ -65,9 +65,9 @@ public class RegisterationPageTests {
 		mydriver.findElement(By.linkText("Register")).click();
 
 		mydriver.findElement(By.name("FirstName")).clear();
-		mydriver.findElement(By.name("FirstName")).sendKeys("admin");
+		mydriver.findElement(By.name("FirstName")).sendKeys("christiano1");
 		mydriver.findElement(By.name("LastName")).clear();
-		mydriver.findElement(By.name("LastName")).sendKeys("admin");
+		mydriver.findElement(By.name("LastName")).sendKeys("ronaldo1");
 
 		WebElement dayDropdown = mydriver.findElement(By.name("DateOfBirthDay"));
 
@@ -95,7 +95,7 @@ public class RegisterationPageTests {
 		js.executeScript("window.scrollBy(0,1000)");
 		mydriver.findElement(By.name("Password")).clear();
 		mydriver.findElement(By.name("Password")).sendKeys("test333");
-		mydriver.findElement(By.name("ConfirmPassword")).clear();
+		mydriver.findElement(By.name("ConfirmPassword")).clear(); 
 		mydriver.findElement(By.name("ConfirmPassword")).sendKeys("test333");
 
 		mydriver.findElement(By.name("register-button")).click();
